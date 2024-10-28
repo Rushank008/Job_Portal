@@ -1,0 +1,63 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.job-listings {
+    margin-top: 20px;
+}
+
+.job-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: box-shadow 0.3s;
+}
+
+.job-card:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.delete-icon {
+    display: inline-block; /* Ensures the anchor behaves like a block element */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    background: linear-gradient(135deg, #ff4d4d, #ff1a1a); /* Gradient background */
+    color: white; /* White icon color */
+    border-radius: 50%; /* Make it circular */
+    text-align: center; /* Center the content */
+    line-height: 50px; /* Vertically center the icon */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.delete-icon:hover {
+    transform: translateY(-3px); /* Lift the button up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.delete-icon:active {
+    transform: translateY(1px); /* Slightly press down on click */
+}
