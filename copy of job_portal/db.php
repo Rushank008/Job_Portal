@@ -2,7 +2,7 @@
     $host = 'localhost';
     $db = 'Job_portal';         // Database name
     $user = 'root';            // MySQL user 
-    $password = 'Mush3kah6eeng9so';  // MySQL password for root user
+    $password = 'YOUR_PASS';  // MySQL password for root user
 
     $conn = new mysqli($host, $user, $password, $db);
 
